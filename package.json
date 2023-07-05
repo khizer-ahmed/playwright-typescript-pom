@@ -1,0 +1,20 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test tests/e2e/",
+    "test_only_ui": "npx playwright test tests/e2e/ui/UITest.spec.ts",
+    "test_only_api": "npx playwright test tests/e2e/api/APITest.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.35.1"
+  },
+  "dependencies": {
+    "playwright": "^1.35.1"
+  }
+}
